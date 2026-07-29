@@ -199,6 +199,23 @@ GitHub Release 中。
 官方发布包；不得销售、收费分发、公开发布修改版或进行商业利用。第三方字体内容继续
 遵循其各自许可证。
 
+## Support / 赞赏支持
+
+如果这个项目对您有帮助，欢迎打赏支持，您的每一份支持都是我持续更新的动力!
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="png/donation-alipay.jpg" alt="支付宝赞赏码" width="360"><br>
+      <strong>支付宝赞赏</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="png/donation-wechat.png" alt="微信赞赏码" width="360"><br>
+      <strong>微信赞赏</strong>
+    </td>
+  </tr>
+</table>
+
 ## Feedback / 反馈
 
 如果你在游玩过程中发现繁体或英文残留、字幕缺失、文本截断、字体异常、按键提示错位、
