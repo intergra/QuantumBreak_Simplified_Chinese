@@ -8,9 +8,13 @@
 
 </div>
 
+<p align="center">
+  <img src="png/main-menu-simplified-chinese.png" alt="Quantum Break 简体中文主菜单" width="100%">
+</p>
+
 ## 下载
 
-请前往本仓库的 [Releases](https://github.com/intergra/QuantumBreak_Simplified_Chinese/releases) 页面下载正式发布的 ZIP 附件。
+请前往本仓库的 [Releases](https://github.com/intergra/QuantumBreak_Simplified_Chinese/releases) 页面下载作者上传的 `QuantumBreak_Simplified_Chinese.zip`。
 
 > 请下载 Release 页面中由作者单独上传的 MOD 压缩包。GitHub 自动生成的
 > `Source code (zip)` 和 `Source code (tar.gz)` 不是可安装的 MOD。
@@ -99,7 +103,7 @@
 data/ep999-000-zh.bin
 data/ep999-000-zh.rmdp
 dx11/loc_x64_f.dll
-README.md
+licenses/LICENSE.md
 licenses/LICENSE-SourceHanSans.txt
 ```
 
@@ -126,12 +130,14 @@ licenses/LICENSE-SourceHanSans.txt
 
 安装前请彻底退出游戏。
 
-1. 打开 Quantum Break 游戏安装目录。
-2. 备份 `data/ep999-000-zh.bin` 和 `data/ep999-000-zh.rmdp`。
-3. 将发布包中的同名文件复制到游戏 `data` 文件夹并确认覆盖。
+1. 解压 `QuantumBreak_Simplified_Chinese.zip`；压缩包根目录直接包含 `data`、`dx11` 和 `licenses`。
+2. 打开 Quantum Break 游戏安装目录，备份 `data/ep999-000-zh.bin` 和 `data/ep999-000-zh.rmdp`。
+3. 将发布包根目录中的 `data` 文件夹复制到游戏根目录并确认覆盖。
 4. 备份游戏 `dx11/loc_x64_f.dll`。
-5. 将发布包中的同名 DLL 复制到游戏 `dx11` 文件夹并确认覆盖。
+5. 将发布包根目录中的 `dx11` 文件夹复制到游戏根目录并确认覆盖。
 6. 启动游戏，在语言设置中选择 **“Chinese / 中文”**。
+
+![将 data 和 dx11 文件夹复制到游戏目录](png/installation-copy-data-dx11.png)
 
 游戏中仍会显示原有的“Chinese / 中文”选项，不会新增“Simplified Chinese”语言项。
 
