@@ -111,7 +111,9 @@ data/ep999-000-zh.bin
 data/ep999-000-zh.rmdp
 dx11/loc_x64_f.dll
 licenses/LICENSE.md
-licenses/LICENSE-SourceHanSans.txt
+licenses/THIRD_PARTY_NOTICES.md
+licenses/OFL.md
+licenses/SourceHanSansSC-COPYRIGHT.md
 ```
 
 发布包不包含游戏本体、`QuantumBreak.exe`、脚本、启动器、注入工具或后台程序。
@@ -196,7 +198,9 @@ GitHub Release 中。
 **简体中文字形：** Source Han Sans SC / 思源黑体简体
 
 字体依据 SIL Open Font License 1.1 使用。第三方版权与许可详情见
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，完整字体许可证随正式发布包提供。
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，完整许可文本见 [OFL.md](OFL.md)，
+实际字体来源和字重记录见
+[SourceHanSansSC-COPYRIGHT.md](SourceHanSansSC-COPYRIGHT.md)。这些文件也随正式发布包提供。
 
 游戏名称、原始文本、图像、音频和其他资产归其各自权利人所有。本 MOD 是非官方、
 非商业的玩家制作项目，与 Remedy Entertainment、Microsoft 或其他相关权利人没有
