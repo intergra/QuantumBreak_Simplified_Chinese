@@ -63,8 +63,8 @@ Copyright © 2026 NoWindNoMoon / 此情无关风月。
 Source Han Sans SC / 思源黑体简体及由其生成的字体衍生内容继续遵循 SIL Open Font
 License 1.1，其使用、修改和分发权利以该许可证为准。
 
-第三方版权与许可详情见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。完整字体版权
-声明和 SIL Open Font License 1.1 随正式发布 ZIP 提供。
+第三方版权与许可详情见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。相关字体的完整
+版权声明及 SIL Open Font License 1.1 许可文本均已随发布包附上。
 
 ## 6. 免责声明
 
