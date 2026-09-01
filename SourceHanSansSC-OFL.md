@@ -1,4 +1,4 @@
-# SIL Open Font License 1.1
+# Source Han Sans SC — SIL Open Font License 1.1
 
 Copyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font
 Name 'Source'. Source is a trademark of Adobe in the United States

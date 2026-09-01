@@ -23,17 +23,13 @@
 
 本 MOD 为 Steam 版《Quantum Break / 量子破碎》制作完整简体中文翻译，覆盖菜单、
 界面、系统提示、任务目标、剧情对白、角色标签、过场字幕、Previously On 剧集字幕、
-收集品与世界观文本，并包含重新构建的简体中文字体资源。
+收集品与世界观文本，并包含配套的简体中文字体资源。
 
 翻译以英文原文、剧情语境和实际玩法为主要依据，官方中文资源仅作参考。项目并非简单
 “繁转简”，而是对人物口吻、剧情术语、玩法提示和 UI 表达进行了统一与润色，使文本
 更符合简体中文玩家的阅读习惯。
 
-正式资源以 Steam 版官方英文运行时键集为基准构建，实际使用的 14,038 条文本均具备完整
-英文原文。仅存在于其他语言资源、且内容已经损坏的非活动记录不会进入游戏语言包，避免
-伪本地化标记、损坏字符或内部审校说明出现在游戏中。
-
-本 MOD 沿用游戏原生中文语言槽和 Northlight 资源结构：
+本 MOD 使用游戏原有的中文语言槽：
 
 - 无需修改 `QuantumBreak.exe`；
 - 无需 DLL 注入、Hook 或额外启动器；
@@ -85,22 +81,20 @@
 
 ### 5. 简体中文字体
 
-从官方 Northlight 中文字体资源重新构建简体中文字形，保留原版字符框、基线、字距和
-按键布局，并对字体粗细、清晰度和重叠风险进行调整。
+使用适配游戏显示的简体中文字形，并对字体清晰度和显示稳定性进行调整。
 
 中文、拉丁字母、数字和中英文标点使用协调的字形风格；Enter、Tab、Space 等按键标签
 仍适配原版按键框。控制器图标、箭头和游戏私用图标不会被普通字符替换。
 
-四套字体分别包含 3,949 个字形，并按照最终活动文本与 Previously On 字幕执行覆盖审计；
-当前正式资源的四套字体均为 0 缺字。
+四套字体均覆盖游戏文本、Previously On 字幕以及常用按键标签；中文、拉丁字母、数字和
+中英文标点能够协调显示，常用文本不会出现缺字方框。
 
 ### 6. Steam PC 专用图形选项
 
-部分 Steam PC 图形设置文本位于 `dx11/loc_x64_f.dll`，不在普通语言包中。本 MOD 对
-其中已确认的本地化字符串进行简体中文修正，包括“胶片颗粒”“图像升级”等选项。
+部分 Steam PC 图形设置文字不在普通语言包中。本 MOD 对其中已确认的本地化文字进行简体
+中文修正，包括“胶片颗粒”“超分辨率”等选项。
 
-该 DLL 不是注入模块或外挂程序，仅替换已知的文本字符串槽，不修改游戏代码、事件逻辑
-或渲染逻辑。
+该 DLL 不是注入模块或外挂程序，只提供本地化文字，不修改游戏代码、事件逻辑或渲染逻辑。
 
 ## Package Contents / 文件内容
 
@@ -112,8 +106,8 @@ data/ep999-000-zh.rmdp
 dx11/loc_x64_f.dll
 licenses/LICENSE.md
 licenses/THIRD_PARTY_NOTICES.md
-licenses/OFL.md
 licenses/SourceHanSansSC-COPYRIGHT.md
+licenses/SourceHanSansSC-OFL.md
 ```
 
 发布包不包含游戏本体、`QuantumBreak.exe`、脚本、启动器、注入工具或后台程序。
@@ -140,11 +134,11 @@ licenses/SourceHanSansSC-COPYRIGHT.md
 安装前请彻底退出游戏。
 
 1. 解压 `QuantumBreak_Simplified_Chinese.zip`；压缩包根目录直接包含 `data`、`dx11` 和 `licenses`。
-2. 打开 Quantum Break 游戏安装目录，备份 `data/ep999-000-zh.bin` 和 `data/ep999-000-zh.rmdp`。
-3. 将发布包根目录中的 `data` 文件夹复制到游戏根目录并确认覆盖。
-4. 备份游戏 `dx11/loc_x64_f.dll`。
-5. 将发布包根目录中的 `dx11` 文件夹复制到游戏根目录并确认覆盖。
-6. 启动游戏，在语言设置中选择 **“Chinese / 中文”**。
+2. 打开 Quantum Break 游戏安装目录，备份 `data/ep999-000-zh.bin`、`data/ep999-000-zh.rmdp`
+   和 `dx11/loc_x64_f.dll` 三个原版文件。
+3. 将发布包根目录中的 `data` 和 `dx11` 文件夹直接复制到游戏根目录并确认覆盖；不要再创建或复制一层
+   `QuantumBreak_Simplified_Chinese/` 文件夹，`licenses` 仅供查阅、无需复制进游戏目录。
+4. 启动游戏，在语言设置中选择 **“Chinese / 中文”**。
 
 ![将 data 和 dx11 文件夹复制到游戏目录](png/installation-copy-data-dx11.png)
 
@@ -153,7 +147,7 @@ licenses/SourceHanSansSC-COPYRIGHT.md
 ## Updating / 更新方法
 
 1. 关闭游戏并备份当前文件。
-2. 如使用过其他资源结构，先通过 Steam 验证游戏文件完整性。
+2. 如安装过其他汉化或测试语言包，先通过 Steam 验证游戏文件完整性。
 3. 按照安装步骤覆盖三个文件。
 4. 启动游戏并确认语言设置为“Chinese / 中文”。
 
@@ -176,8 +170,9 @@ GitHub Release 中。
 **简体中文字形：** Source Han Sans SC / 思源黑体简体
 
 字体依据 SIL Open Font License 1.1 使用。第三方版权与许可详情见
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，完整许可文本见 [OFL.md](OFL.md)，
-实际字体来源和字重记录见
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，完整许可文本见
+[SourceHanSansSC-OFL.md](SourceHanSansSC-OFL.md)，
+字体来源与许可信息见
 [SourceHanSansSC-COPYRIGHT.md](SourceHanSansSC-COPYRIGHT.md)。这些文件也随正式发布包提供。
 
 游戏名称、原始文本、图像、音频和其他资产归其各自权利人所有。本 MOD 是非官方、

@@ -21,8 +21,8 @@
 ```text
 licenses/LICENSE.md
 licenses/THIRD_PARTY_NOTICES.md
-licenses/OFL.md
 licenses/SourceHanSansSC-COPYRIGHT.md
+licenses/SourceHanSansSC-OFL.md
 ```
 
 MOD 中的四套字体资源是在游戏原有字体基础上重新构建的衍生文件，并非 Adobe、
